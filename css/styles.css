@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.keys {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 25%;
+}
+.keys .key {
+  border: 0.2rem solid #01c4e7;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.1s;
+  cursor: pointer;
+}
+kbd {
+  padding: 0.2rem 1.5rem;
+  display: block;
+}
+.keys .key .sound {
+  font-size: 1rem;
+  color: #9a27f7;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: white;
+  box-shadow: 0 0 3px white;
+  color: #01c4e7;
+}
